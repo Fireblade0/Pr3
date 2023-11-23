@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1517187654069-ba29110a1d9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sticker{
+    height: 10%;
+    width: 20%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/abb29737-ad40-42d3-a383-4521b8557e95/d8gmu2x-1a5ca527-d8a2-4921-bf3b-493bdf7d37b0.png/v1/fill/w_700,h_222,strp/prince_of_persia_logo_by_quidek_d8gmu2x-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjIyIiwicGF0aCI6IlwvZlwvYWJiMjk3MzctYWQ0MC00MmQzLWEzODMtNDUyMWI4NTU3ZTk1XC9kOGdtdTJ4LTFhNWNhNTI3LWQ4YTItNDkyMS1iZjNiLTQ5M2JkZjdkMzdiMC5wbmciLCJ3aWR0aCI6Ijw9NzAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.0wNi0msAKBgGJLt595Juun00jG8rqiPkFTTYnTYpXhw);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 5%;
+}
+#sticker:hover{
+    scale: 2;
+}
+#sticker{
+    transition: all ease 1s;
+}
+#sticker1{
+    height: 70%;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://assets.stickpng.com/images/580b57fcd9996e24bc43c28a.png);
+    position: absolute;
+    top: 35%;
+    z-index: 5;
+}
+#elem1{
+    height: 200px;
+    width: 150px;
+    background-image: url(https://img.freepik.com/premium-photo/there-is-castle-middle-mountain-with-sky-background-generative-ai_974521-10644.jpg);
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    top: 8%;
+    border-radius: 50px;
+}
+#elem1:hover{
+     border-radius: 50%;
+}
+#elem11{
+    height: 150px;
+    width: 90px;
+    background-image: url(https://assets.stickpng.com/images/580b57fcd9996e24bc43c28a.png);
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#elem11:hover{
+    scale:1.5;
+}
+#elem11{
+    transition: all ease 1s;
+}
+#elem2{
+    height: 200px;
+    width: 150px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/668/919/749/irithyll-dark-souls-iii-video-games-gothic-architecture-wallpaper-preview.jpg);
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    top: 25%;
+    border-radius: 50px;
+    z-index: 8;
+}
+#elem2:hover{
+ border-radius: 300px;
+}
+#elem22{
+      height: 140px;
+      width: 85px;
+       background-image: url(https://pngimg.com/uploads/wonder_woman/wonder_woman_PNG7.png);
+       background-size:cover;
+       background-position:center;
+       position: relative;
+       top: 50%;
+       left: 55%;
+       transform: translate(-50%,-50%); 
+}
+#elem22:hover{
+    scale: 1.5;
+}
+#elem22{
+    transition: all ease 1s;
+}
+#elem3{
+    height: 200px;
+    width: 150px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/169/403/750/prince-of-persia-warrior-within-wallpaper-preview.jpg);
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    top: 8%;
+    border-radius: 50px;
+}
+#elem3:hover{
+    border-radius: 50%;
+}
+#elem33{
+    height: 150px;
+    width: 90px;
+     background-image: url(https://www.pngplay.com/wp-content/uploads/11/Assassins-Creed-Background-PNG-Image.png);    
+      background-size:cover;
+     background-position:center;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+#elem33:hover{
+    scale:1.3;
+}
+#elem33{
+    transition: all ease 1s;
+}
+/**/
+/**/
